@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    position: relative;
+}
+
+.level{
+    margin-top: 30px;
+    font-size: 18px;
+    padding: 3px 8px;
+    border: none;
+    border-radius: 3px;
+    background: purple;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover{
+  background: darkblue;
+}
+
+.row {
+    margin: 0;
+    padding: 0; 
+    overflow: hidden;
+    letter-spacing: -8px;
+}
+.col {
+    display: inline-block;
+    background: pink;
+    border: 1px solid rgb(129, 129, 129);
+    margin: 1.5px;
+    width: 23px;
+    height: 23px;
+    /* letter-spacing: normal; */
+    position: relative;
+    cursor: pointer;
+}
+
+.col span {
+    display: inline-block;
+    position: relative;
+    right: 3px;
+    opacity: 0;
+    font-weight: bold;
+    cursor: default;
+}
+
+.gameBox{
+    margin-top: 30px;
+}
+
+.mark {
+    background: url('flag.svg') no-repeat 2.5px 2px;
+    background-size: 18px 18px;
+}
+
+.boom {
+    background: url('boom.svg') no-repeat 2.5px 2px;
+    background-size: 18px 18px;  
+}
